@@ -15,7 +15,7 @@ def finding_the_minimum_payment(balance, annualInterestRate):
     temp_balance = balance
     minimum_payment = 0
 
-    while balance >= 0:
+    while balance > 0:
         if balance >= (minimum_payment+10)*12:
             minimum_payment += 10
         else:
