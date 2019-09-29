@@ -14,4 +14,9 @@ def polysum(n, s):
     total = round(area + perimeter_of_polysum, 4)
     return total
 
-print (polysum(5,3))
+
+# Test Case 1: (6316301.7484)
+# print(polysum(41, 59))
+
+# Test Case 2: (112894.017)
+# print(polysum(5, 65))
